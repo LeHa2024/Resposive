@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header position-relative">
+      <div class="container position-relative z-3 bg-white py-2">
+        <div class="d-flex flex-nowrap align-items-center">
+          <div class="flex-grow-1">
+            <a href="/" class="text-black">
+              <h1 class="mb-0 text-decoration-none text-black mt-1">
+                <b>Portfolio</b>
+              </h1>
+            </a>
+          </div>
+
+          <button class="btn btn-trigger-menu d-md-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+          </button>
+
+          <nav class="desktop-nav d-none d-md-flex align-items-center gap-3">
+            <a
+              href=""
+              class="text-decoration-none text-black-50 text-uppercase p-1 fs-6"
+              >Home</a
+            >
+            <a
+              href=""
+              class="text-decoration-none text-black-50 text-uppercase p-1 fs-6"
+              >About</a
+            >
+            <a
+              href=""
+              class="text-decoration-none text-black-50 text-uppercase p-1 fs-6"
+              >Styleguide</a
+            >
+          </nav>
+        </div>
+      </div>
+
+      <nav
+        class="nav mobile-nav d-md-none position-absolute top-100 start-0 end-0 bg-white d-flex flex-column align-items-center z-n1"
+      >
+        <a href="" class="text-decoration-none text-black-50 text-uppercase p-1"
+          >Home</a
+        >
+        <a href="" class="text-decoration-none text-black-50 text-uppercase p-1"
+          >About</a
+        >
+        <a href="" class="text-decoration-none text-black-50 text-uppercase p-1"
+          >Styleguide</a
+        >
+      </nav>
+    </header>
+    <div class="introduce">
+      <div class="container pt-6">
+        <div class="content text-center">
+          <p class="name fs-4 m-0">Jane Lo</p>
+          <p class="product fs-5 text-black-50">Product Designer</p>
+          <p class="product-content fs-0 lh-sm pb-6">
+            Hey there! I’m a creative graphic and web designer based in sunny
+            San Francisco, CA.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">
+      <div class="row g-3 d-flex">
+        <div class="col-12 col-xl-8 m-2">
+          <img
+            src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+            class="img1 object-fit-cover p-2"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-xl-4 m-2">
+          <img
+            src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+            class="img2 object-fit-cover p-2"
+            alt=""
+          />
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-xl-4 m-2">
+            <img
+              src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+              class="img3 object-fit-cover p-2"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-xl-8 m-2">
+            <img
+              src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+              class="img4 object-fit-cover p-2"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-8">
+          <img
+            src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+            class="img-project"
+            alt="Responsive Image 1"
+          />
+          <div class="project-content p-3 pb-5 pt-5">
+            <div class="project-title fs-4 d-flex justify-content-center">
+              Project 1
+            </div>
+            <div class="project-number fs-5 d-flex justify-content-center">
+              Graphic Design
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4">
+          <img
+            src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+            class="img-project"
+            alt="Responsive Image 2"
+          />
+          <div class="project-content p-3 pb-5 pt-5">
+            <div class="project-title fs-4 d-flex justify-content-center">
+              Project 2
+            </div>
+            <div class="project-number fs-5 d-flex justify-content-center">
+              Graphic Design
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4">
+          <img
+            src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+            class="img-project"
+            alt="Responsive Image 3"
+          />
+          <div class="project-content p-3 pb-5 pt-5">
+            <div class="project-title fs-4 d-flex justify-content-center">
+              Project 3
+            </div>
+            <div class="project-number fs-5 d-flex justify-content-center">
+              Graphic Design
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-8">
+          <img
+            src="https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg"
+            class="img-project"
+            alt="Responsive Image 4"
+          />
+          <div class="project-content p-3 pb-5 pt-5">
+            <div class="project-title fs-4 d-flex justify-content-center">
+              Project 4
+            </div>
+            <div class="project-number fs-5 d-flex justify-content-center">
+              Graphic Design
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="experience">
+      <div class="container pt-6">
+        <div class="content2 pt-6 text-center">
+          <p class="product2 fs-0">My Experience</p>
+          <p class="product-content2 fs-5 lh-sm pb-3 text-black-50">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros<br />
+            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+            interdum nulla.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div
+              class="project-name fs-3 d-flex justify-content-center justify-content-md-start"
+            >
+              Webflow
+            </div>
+            <div class="project-content pt-3">
+              <div
+                class="project-title fs-5 d-flex justify-content-center justify-content-md-start"
+              >
+                Graphic Designer
+              </div>
+              <div
+                class="project-number fs-6 d-flex justify-content-center justify-content-md-start"
+              >
+                April 2014 — Mar 2015
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div
+              class="project-name fs-3 d-flex justify-content-center justify-content-md-start"
+            >
+              Webflow
+            </div>
+            <div class="project-content pt-3">
+              <div
+                class="project-title fs-5 d-flex justify-content-center justify-content-md-start"
+              >
+                Dictator
+              </div>
+              <div
+                class="project-number fs-6 d-flex justify-content-center justify-content-md-start"
+              >
+                Aug 2017 — forever
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div
+              class="project-name fs-3 d-flex justify-content-center justify-content-md-start"
+            >
+              Webflow
+            </div>
+            <div class="project-content pt-3">
+              <div
+                class="project-title fs-5 d-flex justify-content-center justify-content-md-start"
+              >
+                Web Designer
+              </div>
+              <div
+                class="project-number fs-6 d-flex justify-content-center justify-content-md-start"
+              >
+                Apr 2015 — Mar 2016
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div
+              class="project-name fs-3 d-flex justify-content-center justify-content-md-start"
+            >
+              Webflow
+            </div>
+            <div class="project-content pt-3">
+              <div
+                class="project-title fs-5 d-flex justify-content-center justify-content-md-start"
+              >
+                Visual Developer
+              </div>
+              <div
+                class="project-number fs-6 d-flex justify-content-center justify-content-md-start"
+              >
+                Jun 2016 — Jul 2017
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form bg-secondary-subtle m-2">
+      <div class="container mt-md-5 pt-6">
+        <h2
+          class="form-title fs-3 d-flex justify-content-center justify-content-md-start"
+        >
+          Want to get in touch?
+        </h2>
+        <h2
+          class="form-title fs-3 d-flex justify-content-center mt-3 justify-content-md-start"
+        >
+          Drop me a line!
+        </h2>
+
+        <h5
+          class="form-text fs-6 text-black-50 d-flex justify-content-center mt-3 justify-content-md-start"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </h5>
+        <div class="form-info pt-md-5">
+          <div class="form-name">
+            <label class="name fs-6">NAME</label>
+            <input type="text" placeholder="Enter your name" />
+          </div>
+          <div class="form-email ps-md-3">
+            <label class="email fs-6">EMAIL</label>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+        </div>
+        <div class="form-label pt-4">
+          <label for="message" class="message fs-6">FORM LABEL</label>
+          <textarea
+            name=""
+            id="form-label"
+            rows="7"
+            placeholder="Enter your mesage"
+          ></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </div>
+    <div class="footer d-md-flex justify-content-between p-4">
+      <div class="footer-title d-flex justify-content-center fs-6 mt-4 ms-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="currentColor"
+          class="bi bi-wikipedia"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8.835 3.003c.828-.006 2.688 0 2.688 0l.033.03v.288q0 .12-.133.12c-.433.02-.522.063-.68.29-.087.126-.258.393-.435.694l-1.52 2.843-.043.089 1.858 3.801.113.031 2.926-6.946q.152-.42-.044-.595c-.132-.114-.224-.18-.563-.195l-.275-.014a.16.16 0 0 1-.096-.035.1.1 0 0 1-.046-.084v-.289l.042-.03h3.306l.034.03v.29q0 .117-.133.117-.65.03-.962.281a1.64 1.64 0 0 0-.488.704s-2.691 6.16-3.612 8.208c-.353.672-.7.61-1.004-.019A224 224 0 0 1 8.044 8.81c-.623 1.285-1.475 3.026-1.898 3.81-.411.715-.75.622-1.02.019-.45-1.065-1.131-2.519-1.817-3.982-.735-1.569-1.475-3.149-1.943-4.272-.167-.4-.293-.657-.412-.759q-.18-.15-.746-.18Q0 3.421 0 3.341v-.303l.034-.03c.615-.003 3.594 0 3.594 0l.034.03v.288q0 .119-.15.118l-.375.016q-.483.02-.483.288-.002.125.109.4c.72 1.753 3.207 6.998 3.207 6.998l.091.023 1.603-3.197-.32-.71L6.24 5.095s-.213-.433-.286-.577l-.098-.196c-.387-.77-.411-.82-.865-.88-.137-.017-.208-.035-.208-.102v-.304l.041-.03h2.853l.075.024v.303q0 .104-.15.104l-.206.03c-.523.04-.438.254-.09.946l1.057 2.163 1.17-2.332c.195-.427.155-.534.074-.633-.046-.055-.202-.144-.54-.158l-.133-.015a.16.16 0 0 1-.096-.034.1.1 0 0 1-.045-.085v-.288l.041-.03Z"
+          />
+        </svg>
+        <a href="" class="powered text-black-50 text-decoration-none"
+          >POWERED BY WEBFLOW</a
+        >
+      </div>
+      <div
+        class="footer-link d-flex flex-column align-items-center mt-3 g-3 fs-6 flex-md-row pe-3"
+      >
+        <a href="" class="facebook text-black-50 text-decoration-none pt-3"
+          >FACEBOOK</a
+        >
+        <a
+          href=""
+          class="twitter text-black-50 text-decoration-none pt-3 ms-3 me-3"
+          >TWITTER</a
+        >
+        <a
+          href=""
+          class="instagram text-black-50 text-decoration-none pt-3 ms-3"
+          >INSTAGRAM</a
+        >
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document
+        .querySelector(".btn-trigger-menu")
+        .addEventListener("click", function () {
+          document.querySelector(".mobile-nav").classList.toggle("show");
+        });
+    </script>
+  </body>
+</html>
